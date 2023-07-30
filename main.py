@@ -56,8 +56,3 @@ if st.button('Recommend'):
         st.text(names[4])
         st.image(posters[4])
 
- st.write("Due to the available dataset contains data before year 2018, all the recommendation will be till the year 2018")
-
-st.subheader("Made by Atharva Sambhus")
-image = Image.open('/app/end2end-nlp-project/App/damian.jpg')
-st.image(image)
